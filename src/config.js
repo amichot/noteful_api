@@ -3,5 +3,6 @@ module.exports = {
   API_TOKEN: process.env.API_TOKEN || 'dummy-api-token',
   NODE_ENV: process.env.NODE_ENV || 'development',
   DB_URL:
-    process.env.DB_URL || 'postgresql://dunder-mifflin:1@localhost/noteful',
+    process.env.DATABASE_URL ||
+    'postgresql://dunder-mifflin:1@localhost/noteful',
 };
